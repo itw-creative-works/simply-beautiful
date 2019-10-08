@@ -30,7 +30,7 @@
 ## Simply Beautiful Works in Node AND browser environments
 Yes, this module works in both Node and browser environments, including compatability with [Webpack](https://www.npmjs.com/package/webpack) and [Browserify](https://www.npmjs.com/package/browserify)!
 
-## Features
+## Minify any of the following languages
 * HTML
 * CSS
 * Javascript
@@ -67,7 +67,7 @@ var options = {
 }
 console.log(beautify.html('<div><div><div></div></div></div>', options));
 console.log(beautify.css('p { color: red; text-align: center; }', options));
-console.log(beautify.js("function functionName() { (function() { 'use strict'; }()); }", options));
+console.log(beautify.js("function test() { (function() { console.log('Hello World!') }()); }", options));
 console.log(beautify.json('{ "top": { "middle": { "bottom": 69 } } }', options));
 ```
 

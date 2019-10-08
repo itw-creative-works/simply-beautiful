@@ -18,29 +18,6 @@
 
   var environment = (Object.prototype.toString.call(typeof process !== 'undefined' ? process : 0) === '[object process]') ? 'node' : 'browser';
 
-  if (environment == 'browser') {
-    console.log('ADDING TO BROWSER 1');
-    try {
-      window.SimplyBeautiful = SimplyBeautiful;
-      console.log('ADDING TO BROWSER 2');
-      console.log(window.SimplyBeautiful);
-    } catch (e) {
-    }
-  }
-
-  // function SimplyBeautiful() {
-  // };
-  //
-  //
-  // SimplyBeautiful.prototype.submit = function(options) {
-  //
-  //   options = options || {};
-  //
-  //
-  // }
-
-
-
   /*
   JS
 
@@ -2117,7 +2094,12 @@
     SimplyBeautiful.json = SimplyBeautiful.js;
     SimplyBeautiful.javascript = SimplyBeautiful.js;
 
-
+    if (environment == 'browser') {
+      try {
+        window.SimplyBeautiful = SimplyBeautiful;
+      } catch (e) {
+      }
+    }
   // Just return a value to define the module export.
   // This example returns an object, but the module
   // can return a function as the exported value.

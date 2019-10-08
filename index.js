@@ -19,8 +19,11 @@
   var environment = (Object.prototype.toString.call(typeof process !== 'undefined' ? process : 0) === '[object process]') ? 'node' : 'browser';
 
   if (environment == 'browser') {
+    console.log('ADDING TO BROWSER 1');
     try {
       window.SimplyBeautiful = SimplyBeautiful;
+      console.log('ADDING TO BROWSER 2');
+      console.log(window.SimplyBeautiful);
     } catch (e) {
     }
   }

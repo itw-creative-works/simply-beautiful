@@ -45,7 +45,7 @@ npm install simply-beautiful
 If you plan to use `simply-beautiful` in a browser environment, you will probably need to use [Webpack](https://www.npmjs.com/package/webpack), [Browserify](https://www.npmjs.com/package/browserify), or a similar service to compile it.
 
 ```js
-const beautify = new (require('simply-beautiful'));
+const beautify = require('simply-beautiful');
 ```
 
 ### Install via CDN
@@ -94,7 +94,7 @@ a question to [the Simply Beautiful issues page](https://github.com/itw-creative
 ## Projects Using this Library
 [Somiibo](https://somiibo.com/): A Social Media Bot with an open-source module library. <br>
 [JekyllUp](https://jekyllup.com/): A website devoted to sharing the best Jekyll themes. <br>
-[Simply Beautiful](https://slapform.com/): A backend processor for your HTML forms on static sites. <br>
+[Slapform](https://slapform.com/): A backend processor for your HTML forms on static sites. <br>
 [SoundGrail Music App](https://app.soundgrail.com/): A resource for producers, musicians, and DJs. <br>
 [Hammock Report](https://hammockreport.com/): An API for exploring and listing backyard products. <br>
 

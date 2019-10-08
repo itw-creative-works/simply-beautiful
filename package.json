@@ -1,6 +1,6 @@
 {
   "name": "simply-beautiful",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Beautify HTML, JS, CSS, and JSON in the browser or in Node.js!",
   "main": "index.js",
   "scripts": {

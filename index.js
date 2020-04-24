@@ -2092,42 +2092,20 @@
       options.max_char = typeof options.max_char !== 'undefined' ? options.max_char : 0;
       return css_beautify(content, options);
     }
-    ret.json = SimplyBeautiful.js;
-    ret.javascript = SimplyBeautiful.js;
+    ret.json = ret.js;
+    ret.javascript = ret.js;
     return ret;
   };
-    // SimplyBeautiful.js = function(content, options) {
-    //   options = options || {};
-    //   options.indent_size = typeof options.indent_size !== 'undefined' ? options.indent_size : 4;
-    //   options.space_before_conditional = typeof options.space_before_conditional !== 'undefined' ? options.space_before_conditional : true;
-    //   options.jslint_happy = typeof options.jslint_happy !== 'undefined' ? options.jslint_happy : true;
-    //   options.max_char = typeof options.max_char !== 'undefined' ? options.max_char : 0;
-    //   return js_beautify(content, options);
-    // }
-    // SimplyBeautiful.html = function(content, options) {
-    //   options = options || {};
-    //   options.indent_size = typeof options.indent_size !== 'undefined' ? options.indent_size : 4;
-    //   options.max_char = typeof options.max_char !== 'undefined' ? options.max_char : 0;
-    //   return style_html(content, options);
-    // }
-    // SimplyBeautiful.css = function(content, options) {
-    //   options = options || {};
-    //   options.indent_size = typeof options.indent_size !== 'undefined' ? options.indent_size : 4;
-    //   options.max_char = typeof options.max_char !== 'undefined' ? options.max_char : 0;
-    //   return css_beautify(content, options);
-    // }
-    // SimplyBeautiful.json = SimplyBeautiful.js;
-    // SimplyBeautiful.javascript = SimplyBeautiful.js;
 
-    if (environment == 'browser') {
-      try {
-        window.SimplyBeautiful = SimplyBeautiful;
-      } catch (e) {
-      }
+  if (environment == 'browser') {
+    try {
+      window.SimplyBeautiful = SimplyBeautiful();
+    } catch (e) {
     }
+  }
   // Just return a value to define the module export.
   // This example returns an object, but the module
   // can return a function as the exported value.
-  return SimplyBeautiful; // Enable if using UMD
+  return SimplyBeautiful(); // Enable if using UMD
 
 }));

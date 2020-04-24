@@ -2099,7 +2099,7 @@
 
   if (environment == 'browser') {
     try {
-      window.SimplyBeautiful = SimplyBeautiful();
+      window.SimplyBeautiful = SimplyBeautiful;
     } catch (e) {
     }
   }

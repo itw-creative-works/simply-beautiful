@@ -24,6 +24,8 @@
   <br>
   <strong>simply-beautiful</strong> will beautify (pretty print) any web language including HTML, CSS, Javascript, and even JSON! Configure your own indent size and more!
   <br>
+  <img src="https://media.giphy.com/media/REiJphYIQy13i/source.gif">
+  <br>
 </p>
 
 ## Simply Beautiful Works in Node AND browser environments

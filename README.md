@@ -54,7 +54,7 @@ const beautify = require('simply-beautiful');
 ### Install via CDN
 Install with CDN if you plan to use Simply Beautiful only in a browser environment.
 ```html
-<script src="https://cdn.jsdelivr.net/npm/simply-beautiful@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/simply-beautiful@latest/dist/index.min.js"></script>
 <script type="text/javascript">
   var beautify = SimplyBeautiful(); // The script above exposes the global variable 'SimplyBeautiful'
 </script>

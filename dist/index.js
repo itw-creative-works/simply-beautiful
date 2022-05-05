@@ -14,8 +14,6 @@
   }
 }(typeof self !== 'undefined' ? self : this, function () {
 
-  this.extra = '17'; //@@@ Delete later
-
   var environment = (Object.prototype.toString.call(typeof process !== 'undefined' ? process : 0) === '[object process]') ? 'node' : 'browser';
 
   /*

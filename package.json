@@ -1,11 +1,11 @@
 {
   "name": "simply-beautiful",
-  "version": "0.2.12",
+  "version": "0.2.14",
   "description": "Beautify HTML, JS, CSS, and JSON in the browser or in Node.js!",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "node ./src/prepare.js"
+    "prepare": "node -e 'require(`prepare-package`)'"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -36,6 +36,7 @@
   },
   "homepage": "https://itwcreativeworks.com",
   "devDependencies": {
-    "fs-jetpack": "^4.3.1"
+    "fs-jetpack": "^4.3.1",
+    "prepare-package": "^0.0.6"
   }
 }

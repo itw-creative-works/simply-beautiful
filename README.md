@@ -7,8 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/package-json/v/itw-creative-works/simply-beautiful.svg">
   <br>
-  <img src="https://img.shields.io/david/itw-creative-works/simply-beautiful.svg">
-  <img src="https://img.shields.io/david/dev/itw-creative-works/simply-beautiful.svg">
+  <img src="https://img.shields.io/librariesio/release/npm/simply-beautiful.svg">
   <img src="https://img.shields.io/bundlephobia/min/simply-beautiful.svg">
   <img src="https://img.shields.io/codeclimate/maintainability-percentage/itw-creative-works/simply-beautiful.svg">
   <img src="https://img.shields.io/npm/dm/simply-beautiful.svg">

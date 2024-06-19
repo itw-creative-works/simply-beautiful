@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://cdn.itwcreativeworks.com/assets/itw-creative-works/images/logo/itw-creative-works-brandmark-black-x.svg">
+  <a href="https://itwcreativeworks.com">
     <img src="https://cdn.itwcreativeworks.com/assets/itw-creative-works/images/logo/itw-creative-works-brandmark-black-x.svg" width="100px">
   </a>
 </p>
@@ -29,17 +29,17 @@
   <br>
 </p>
 
-## Simply Beautiful Works in Node AND browser environments
+## 🌐 Simply Beautiful Works in Node AND browser environments
 Yes, this module works in both Node and browser environments, including compatibility with [Webpack](https://www.npmjs.com/package/webpack) and [Browserify](https://www.npmjs.com/package/browserify)!
 
-## Un-minify any of the following languages
+## 🦄 Un-minify any of the following languages
 * HTML
 * CSS
 * Javascript
 * JSON
 
-## Install Simply Beautiful
-### Install via npm
+## 📦 Install Simply Beautiful
+### Option 1: Install via npm
 Install with npm if you plan to use Simply Beautiful in a Node project or in the browser.
 ```shell
 npm install simply-beautiful
@@ -50,7 +50,7 @@ If you plan to use `simply-beautiful` in a browser environment, you will probabl
 const beautify = require('simply-beautiful');
 ```
 
-### Install via CDN
+### Option 2: Install via CDN
 Install with CDN if you plan to use Simply Beautiful only in a browser environment.
 ```html
 <script src="https://cdn.jsdelivr.net/npm/simply-beautiful@latest/dist/index.min.js"></script>
@@ -59,7 +59,7 @@ Install with CDN if you plan to use Simply Beautiful only in a browser environme
 </script>
 ```
 
-## Using Simply Beautiful
+## ⚡️ Using Simply Beautiful
 ### Via the npm module or the CDN
 After you have followed the install step, you can start using `simply-beautiful` with your website or software!
 ```js
@@ -73,7 +73,7 @@ console.log(beautify.js("function test() { (function() { console.log('Hello Worl
 console.log(beautify.json('{ "top": { "middle": { "bottom": 69 } } }', options));
 ```
 
-## Extending Capabilities
+## 🧩 Extending Capabilities
 ### Options
 Find a kitchen-sink example of the options you can supply to customize the output of the beautifier!
 ```js
@@ -85,15 +85,16 @@ var options = {
 }
 ```
 
-## What Can Simply Beautiful do?
+## 📝 What Can Simply Beautiful do?
 Simply beautify will pretty print any HTML, CSS Javascript, or JSON and it works in both browser and Node.js environments!
+
 Based on this pen [here](https://codepen.io/jasondavis/pen/JoxMXa).
 
-## Final Words
+## 🗨️ Final Words
 If you are still having difficulty, we would love for you to post
 a question to [the Simply Beautiful issues page](https://github.com/itw-creative-works/simply-beautiful/issues). It is much easier to answer questions that include your code and relevant files! So if you can provide them, we'd be extremely grateful (and more likely to help you find the answer!)
 
-## Projects Using this Library
+## 📚 Projects Using this Library
 [Somiibo](https://somiibo.com/): A Social Media Bot with an open-source module library. <br>
 [JekyllUp](https://jekyllup.com/): A website devoted to sharing the best Jekyll themes. <br>
 [Slapform](https://slapform.com/): A backend processor for your HTML forms on static sites. <br>

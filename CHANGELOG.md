@@ -15,7 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - `Security` in case of vulnerabilities.
 
 ---
-## [Unreleased]
+## [1.0.2] - 2026-07-24
 ### Added
 - Real test coverage for `html`, `css`, `js`, and `json`, replacing the placeholder test that always failed.
 - Declared publish intent explicitly with `private: false` and `publishConfig.access`.

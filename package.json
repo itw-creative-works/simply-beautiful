@@ -4,9 +4,9 @@
   "description": "Beautify HTML, JS, CSS, and JSON in the browser or in Node.js!",
   "main": "dist/index.js",
   "scripts": {
-    "test": "npm run prepare && ./node_modules/mocha/bin/mocha test/ --recursive --timeout=10000",
+    "test": "npm run prepare && mocha test/ --recursive --timeout=10000",
     "prepare": "node -e \"require('prepare-package')()\"",
-    "prepare:watch": "nodemon -w ./src -e '*' --exec 'npm run prepare'"
+    "prepare:watch": "node -e \"require('prepare-package/watch')()\""
   },
   "engines": {
     "node": ">=12"
@@ -32,6 +32,10 @@
   ],
   "author": "ITW Creative Works",
   "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/itw-creative-works/simply-beautiful/issues"
   },
@@ -39,14 +43,15 @@
   "preparePackage": {
     "input": "./src",
     "output": "./dist",
-    "replace": {}
+    "replace": {},
+    "type": "copy",
+    "hooks": {}
   },
   "dependencies": {
-    "itwcw-package-analytics": "^1.0.4"
+    "itwcw-package-analytics": "^1.0.8"
   },
   "devDependencies": {
-    "fs-jetpack": "^4.3.1",
-    "mocha": "^8.4.0",
-    "prepare-package": "^1.1.12"
+    "mocha": "^11.7.6",
+    "prepare-package": "^2.1.0"
   }
 }

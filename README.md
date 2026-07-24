@@ -9,7 +9,6 @@
   <br>
   <img src="https://img.shields.io/librariesio/release/npm/simply-beautiful.svg">
   <img src="https://img.shields.io/bundlephobia/min/simply-beautiful.svg">
-  <img src="https://img.shields.io/codeclimate/maintainability-percentage/itw-creative-works/simply-beautiful.svg">
   <img src="https://img.shields.io/npm/dm/simply-beautiful.svg">
   <img src="https://img.shields.io/node/v/simply-beautiful.svg">
   <img src="https://img.shields.io/website/https/itwcreativeworks.com.svg">
